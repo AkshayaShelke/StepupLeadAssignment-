@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thank You Page</title>
+</head>
+<body>
+        @{Html.BeginForm("PdfDownload", "Thanks", FormMethod.Post);
+            {
+                <h1>Thank You !!!</h1>
+            }
+            Html.EndForm();
+        }
+</body>
+</html>
